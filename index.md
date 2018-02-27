@@ -1,7 +1,4 @@
 
-<p align="center"><img width="80" height="80" alt="BDEXPERT" src="https://0.s3.envato.com/files/147926040/Themeforest-Avator-80.jpg"></p>
-
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
