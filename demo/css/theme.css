@@ -6,9 +6,29 @@ Description: 100% Responsive, Highly Customizable, SEO Friendly CSS Framework Us
 Author: BDEXPERT
 Version: 1.0
 ----------------------------------------------------------------------------------------
-CORE CSS FILES
+                                CORE CSS FILES INDEX
 ========================================================================================
-    1. BASE CSS
+    1. TEXT TYPOGRAPHY CSS
+    2. MARGIN CSS
+    3. PADDING CSS
+    4. BACKGROUND CSS
+    5. COLOR CSS
+    6. BORDER CSS
+    7. SHADOW CSS
+    8. BEFORE AFTER CSS
+    9. MENU CSS
+    10. FORM & INPUT CSS
+    11. AREA BG CSS
+    12. AREA TITLE CSS
+    13. HOVER CSS
+    14. HOME AREA CSS
+    15. HOME SLIDER CSS
+    16. BOX CSS
+    17. TEAM CSS
+    18. SCREENSHOT CSS
+    19. BLOG CSS
+    20. WIDGETS CSS
+    21. SINGLE PAGE CSS
 ----------------------------------------------------------------------------------------*/
 
 @import url("core/text-typography.css");
