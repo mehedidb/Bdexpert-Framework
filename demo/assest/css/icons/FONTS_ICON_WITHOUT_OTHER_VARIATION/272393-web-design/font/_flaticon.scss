@@ -1,0 +1,139 @@
+    /*
+    fl icon font: fl
+    Creation date: 08/11/2016 12:36
+    */
+
+    @font-face {
+  font-family: "fl";
+  src: url("./fl.eot");
+  src: url("./fl.eot?#iefix") format("embedded-opentype"),
+       url("./fl.woff") format("woff"),
+       url("./fl.ttf") format("truetype"),
+       url("./fl.svg#fl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fl";
+    src: url("./fl.svg#fl") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "fl";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .fl-analysis:before { content: "\f100"; }
+.fl-analysis-1:before { content: "\f101"; }
+.fl-approve:before { content: "\f102"; }
+.fl-attach:before { content: "\f103"; }
+.fl-attractive:before { content: "\f104"; }
+.fl-brainstorming:before { content: "\f105"; }
+.fl-broken-link:before { content: "\f106"; }
+.fl-chat:before { content: "\f107"; }
+.fl-chronometer:before { content: "\f108"; }
+.fl-compass:before { content: "\f109"; }
+.fl-competition:before { content: "\f10a"; }
+.fl-content:before { content: "\f10b"; }
+.fl-design-tool:before { content: "\f10c"; }
+.fl-grid:before { content: "\f10d"; }
+.fl-headphones:before { content: "\f10e"; }
+.fl-html:before { content: "\f10f"; }
+.fl-image:before { content: "\f110"; }
+.fl-layout:before { content: "\f111"; }
+.fl-loading:before { content: "\f112"; }
+.fl-login:before { content: "\f113"; }
+.fl-pantone:before { content: "\f114"; }
+.fl-paper-plane:before { content: "\f115"; }
+.fl-photo-camera:before { content: "\f116"; }
+.fl-piggy-bank:before { content: "\f117"; }
+.fl-pipette:before { content: "\f118"; }
+.fl-pixel:before { content: "\f119"; }
+.fl-placeholder:before { content: "\f11a"; }
+.fl-planning:before { content: "\f11b"; }
+.fl-promotion:before { content: "\f11c"; }
+.fl-pyramid:before { content: "\f11d"; }
+.fl-quality:before { content: "\f11e"; }
+.fl-responsive:before { content: "\f11f"; }
+.fl-schedule:before { content: "\f120"; }
+.fl-search:before { content: "\f121"; }
+.fl-security:before { content: "\f122"; }
+.fl-settings:before { content: "\f123"; }
+.fl-sitemap:before { content: "\f124"; }
+.fl-startup:before { content: "\f125"; }
+.fl-support:before { content: "\f126"; }
+.fl-tap:before { content: "\f127"; }
+.fl-target:before { content: "\f128"; }
+.fl-targeting:before { content: "\f129"; }
+.fl-task:before { content: "\f12a"; }
+.fl-testing:before { content: "\f12b"; }
+.fl-text:before { content: "\f12c"; }
+.fl-timeline:before { content: "\f12d"; }
+.fl-tools:before { content: "\f12e"; }
+.fl-upload:before { content: "\f12f"; }
+.fl-vector:before { content: "\f130"; }
+.fl-video-player:before { content: "\f131"; }
+    
+    $font-fl-analysis: "\f100";
+    $font-fl-analysis-1: "\f101";
+    $font-fl-approve: "\f102";
+    $font-fl-attach: "\f103";
+    $font-fl-attractive: "\f104";
+    $font-fl-brainstorming: "\f105";
+    $font-fl-broken-link: "\f106";
+    $font-fl-chat: "\f107";
+    $font-fl-chronometer: "\f108";
+    $font-fl-compass: "\f109";
+    $font-fl-competition: "\f10a";
+    $font-fl-content: "\f10b";
+    $font-fl-design-tool: "\f10c";
+    $font-fl-grid: "\f10d";
+    $font-fl-headphones: "\f10e";
+    $font-fl-html: "\f10f";
+    $font-fl-image: "\f110";
+    $font-fl-layout: "\f111";
+    $font-fl-loading: "\f112";
+    $font-fl-login: "\f113";
+    $font-fl-pantone: "\f114";
+    $font-fl-paper-plane: "\f115";
+    $font-fl-photo-camera: "\f116";
+    $font-fl-piggy-bank: "\f117";
+    $font-fl-pipette: "\f118";
+    $font-fl-pixel: "\f119";
+    $font-fl-placeholder: "\f11a";
+    $font-fl-planning: "\f11b";
+    $font-fl-promotion: "\f11c";
+    $font-fl-pyramid: "\f11d";
+    $font-fl-quality: "\f11e";
+    $font-fl-responsive: "\f11f";
+    $font-fl-schedule: "\f120";
+    $font-fl-search: "\f121";
+    $font-fl-security: "\f122";
+    $font-fl-settings: "\f123";
+    $font-fl-sitemap: "\f124";
+    $font-fl-startup: "\f125";
+    $font-fl-support: "\f126";
+    $font-fl-tap: "\f127";
+    $font-fl-target: "\f128";
+    $font-fl-targeting: "\f129";
+    $font-fl-task: "\f12a";
+    $font-fl-testing: "\f12b";
+    $font-fl-text: "\f12c";
+    $font-fl-timeline: "\f12d";
+    $font-fl-tools: "\f12e";
+    $font-fl-upload: "\f12f";
+    $font-fl-vector: "\f130";
+    $font-fl-video-player: "\f131";

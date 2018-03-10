@@ -1,0 +1,139 @@
+    /*
+    fl icon font: fl
+    Creation date: 22/06/2016 15:31
+    */
+
+    @font-face {
+  font-family: "fl";
+  src: url("./fl.eot");
+  src: url("./fl.eot?#iefix") format("embedded-opentype"),
+       url("./fl.woff") format("woff"),
+       url("./fl.ttf") format("truetype"),
+       url("./fl.svg#fl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fl";
+    src: url("./fl.svg#fl") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "fl";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .fl-analytics:before { content: "\f100"; }
+.fl-backup:before { content: "\f101"; }
+.fl-blogging:before { content: "\f102"; }
+.fl-browser:before { content: "\f103"; }
+.fl-browser-1:before { content: "\f104"; }
+.fl-browser-2:before { content: "\f105"; }
+.fl-bug:before { content: "\f106"; }
+.fl-cloud-computing:before { content: "\f107"; }
+.fl-coding:before { content: "\f108"; }
+.fl-customer:before { content: "\f109"; }
+.fl-design:before { content: "\f10a"; }
+.fl-devices:before { content: "\f10b"; }
+.fl-domain-registration:before { content: "\f10c"; }
+.fl-email:before { content: "\f10d"; }
+.fl-folder:before { content: "\f10e"; }
+.fl-funnel:before { content: "\f10f"; }
+.fl-idea:before { content: "\f110"; }
+.fl-image:before { content: "\f111"; }
+.fl-keywords:before { content: "\f112"; }
+.fl-link:before { content: "\f113"; }
+.fl-map:before { content: "\f114"; }
+.fl-monitoring:before { content: "\f115"; }
+.fl-music:before { content: "\f116"; }
+.fl-newspaper:before { content: "\f117"; }
+.fl-online-shop:before { content: "\f118"; }
+.fl-pay-per-click:before { content: "\f119"; }
+.fl-quality:before { content: "\f11a"; }
+.fl-ranking:before { content: "\f11b"; }
+.fl-screen:before { content: "\f11c"; }
+.fl-search:before { content: "\f11d"; }
+.fl-search-1:before { content: "\f11e"; }
+.fl-search-engine:before { content: "\f11f"; }
+.fl-search-engine-1:before { content: "\f120"; }
+.fl-server:before { content: "\f121"; }
+.fl-shared-folder:before { content: "\f122"; }
+.fl-sharing-archives:before { content: "\f123"; }
+.fl-shield:before { content: "\f124"; }
+.fl-sitemap:before { content: "\f125"; }
+.fl-smartphone:before { content: "\f126"; }
+.fl-social-media:before { content: "\f127"; }
+.fl-speech-bubbles:before { content: "\f128"; }
+.fl-speedometer:before { content: "\f129"; }
+.fl-stats:before { content: "\f12a"; }
+.fl-tags:before { content: "\f12b"; }
+.fl-target:before { content: "\f12c"; }
+.fl-targeting:before { content: "\f12d"; }
+.fl-translation:before { content: "\f12e"; }
+.fl-typewriter:before { content: "\f12f"; }
+.fl-video:before { content: "\f130"; }
+.fl-viral-marketing:before { content: "\f131"; }
+    
+    $font-fl-analytics: "\f100";
+    $font-fl-backup: "\f101";
+    $font-fl-blogging: "\f102";
+    $font-fl-browser: "\f103";
+    $font-fl-browser-1: "\f104";
+    $font-fl-browser-2: "\f105";
+    $font-fl-bug: "\f106";
+    $font-fl-cloud-computing: "\f107";
+    $font-fl-coding: "\f108";
+    $font-fl-customer: "\f109";
+    $font-fl-design: "\f10a";
+    $font-fl-devices: "\f10b";
+    $font-fl-domain-registration: "\f10c";
+    $font-fl-email: "\f10d";
+    $font-fl-folder: "\f10e";
+    $font-fl-funnel: "\f10f";
+    $font-fl-idea: "\f110";
+    $font-fl-image: "\f111";
+    $font-fl-keywords: "\f112";
+    $font-fl-link: "\f113";
+    $font-fl-map: "\f114";
+    $font-fl-monitoring: "\f115";
+    $font-fl-music: "\f116";
+    $font-fl-newspaper: "\f117";
+    $font-fl-online-shop: "\f118";
+    $font-fl-pay-per-click: "\f119";
+    $font-fl-quality: "\f11a";
+    $font-fl-ranking: "\f11b";
+    $font-fl-screen: "\f11c";
+    $font-fl-search: "\f11d";
+    $font-fl-search-1: "\f11e";
+    $font-fl-search-engine: "\f11f";
+    $font-fl-search-engine-1: "\f120";
+    $font-fl-server: "\f121";
+    $font-fl-shared-folder: "\f122";
+    $font-fl-sharing-archives: "\f123";
+    $font-fl-shield: "\f124";
+    $font-fl-sitemap: "\f125";
+    $font-fl-smartphone: "\f126";
+    $font-fl-social-media: "\f127";
+    $font-fl-speech-bubbles: "\f128";
+    $font-fl-speedometer: "\f129";
+    $font-fl-stats: "\f12a";
+    $font-fl-tags: "\f12b";
+    $font-fl-target: "\f12c";
+    $font-fl-targeting: "\f12d";
+    $font-fl-translation: "\f12e";
+    $font-fl-typewriter: "\f12f";
+    $font-fl-video: "\f130";
+    $font-fl-viral-marketing: "\f131";

@@ -1,0 +1,139 @@
+    /*
+    fl icon font: fl
+    Creation date: 05/01/2018 08:50
+    */
+
+    @font-face {
+  font-family: "fl";
+  src: url("./fl.eot");
+  src: url("./fl.eot?#iefix") format("embedded-opentype"),
+       url("./fl.woff") format("woff"),
+       url("./fl.ttf") format("truetype"),
+       url("./fl.svg#fl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fl";
+    src: url("./fl.svg#fl") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "fl";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .fl-001-mouse:before { content: "\f100"; }
+.fl-002-wireframe:before { content: "\f101"; }
+.fl-003-magic-wand:before { content: "\f102"; }
+.fl-004-rgb:before { content: "\f103"; }
+.fl-005-book:before { content: "\f104"; }
+.fl-006-protractor:before { content: "\f105"; }
+.fl-007-text-editor-1:before { content: "\f106"; }
+.fl-008-image:before { content: "\f107"; }
+.fl-009-sketch-1:before { content: "\f108"; }
+.fl-010-paint-bucket:before { content: "\f109"; }
+.fl-011-vector-2:before { content: "\f10a"; }
+.fl-012-opacity:before { content: "\f10b"; }
+.fl-013-settings:before { content: "\f10c"; }
+.fl-014-3d-cube:before { content: "\f10d"; }
+.fl-015-browser-1:before { content: "\f10e"; }
+.fl-016-pantone:before { content: "\f10f"; }
+.fl-017-pencil-case:before { content: "\f110"; }
+.fl-018-sketch:before { content: "\f111"; }
+.fl-019-text-editor:before { content: "\f112"; }
+.fl-020-laptop:before { content: "\f113"; }
+.fl-021-eraser:before { content: "\f114"; }
+.fl-022-idea-1:before { content: "\f115"; }
+.fl-023-visibility:before { content: "\f116"; }
+.fl-024-creativity:before { content: "\f117"; }
+.fl-025-reflect:before { content: "\f118"; }
+.fl-026-target:before { content: "\f119"; }
+.fl-027-lasso:before { content: "\f11a"; }
+.fl-028-browser:before { content: "\f11b"; }
+.fl-029-crop:before { content: "\f11c"; }
+.fl-030-graphic-design:before { content: "\f11d"; }
+.fl-031-layout:before { content: "\f11e"; }
+.fl-032-drawing:before { content: "\f11f"; }
+.fl-033-compass:before { content: "\f120"; }
+.fl-034-ruler:before { content: "\f121"; }
+.fl-035-file:before { content: "\f122"; }
+.fl-036-idea:before { content: "\f123"; }
+.fl-037-vector-1:before { content: "\f124"; }
+.fl-038-agenda:before { content: "\f125"; }
+.fl-039-graphic-tablet:before { content: "\f126"; }
+.fl-040-pipette:before { content: "\f127"; }
+.fl-041-layers:before { content: "\f128"; }
+.fl-042-tools:before { content: "\f129"; }
+.fl-043-paint-palette:before { content: "\f12a"; }
+.fl-044-transform:before { content: "\f12b"; }
+.fl-045-paint-brush:before { content: "\f12c"; }
+.fl-046-paint-spray:before { content: "\f12d"; }
+.fl-047-paint-roller:before { content: "\f12e"; }
+.fl-048-color-palette:before { content: "\f12f"; }
+.fl-049-ideas:before { content: "\f130"; }
+.fl-050-vector:before { content: "\f131"; }
+    
+    $font-fl-001-mouse: "\f100";
+    $font-fl-002-wireframe: "\f101";
+    $font-fl-003-magic-wand: "\f102";
+    $font-fl-004-rgb: "\f103";
+    $font-fl-005-book: "\f104";
+    $font-fl-006-protractor: "\f105";
+    $font-fl-007-text-editor-1: "\f106";
+    $font-fl-008-image: "\f107";
+    $font-fl-009-sketch-1: "\f108";
+    $font-fl-010-paint-bucket: "\f109";
+    $font-fl-011-vector-2: "\f10a";
+    $font-fl-012-opacity: "\f10b";
+    $font-fl-013-settings: "\f10c";
+    $font-fl-014-3d-cube: "\f10d";
+    $font-fl-015-browser-1: "\f10e";
+    $font-fl-016-pantone: "\f10f";
+    $font-fl-017-pencil-case: "\f110";
+    $font-fl-018-sketch: "\f111";
+    $font-fl-019-text-editor: "\f112";
+    $font-fl-020-laptop: "\f113";
+    $font-fl-021-eraser: "\f114";
+    $font-fl-022-idea-1: "\f115";
+    $font-fl-023-visibility: "\f116";
+    $font-fl-024-creativity: "\f117";
+    $font-fl-025-reflect: "\f118";
+    $font-fl-026-target: "\f119";
+    $font-fl-027-lasso: "\f11a";
+    $font-fl-028-browser: "\f11b";
+    $font-fl-029-crop: "\f11c";
+    $font-fl-030-graphic-design: "\f11d";
+    $font-fl-031-layout: "\f11e";
+    $font-fl-032-drawing: "\f11f";
+    $font-fl-033-compass: "\f120";
+    $font-fl-034-ruler: "\f121";
+    $font-fl-035-file: "\f122";
+    $font-fl-036-idea: "\f123";
+    $font-fl-037-vector-1: "\f124";
+    $font-fl-038-agenda: "\f125";
+    $font-fl-039-graphic-tablet: "\f126";
+    $font-fl-040-pipette: "\f127";
+    $font-fl-041-layers: "\f128";
+    $font-fl-042-tools: "\f129";
+    $font-fl-043-paint-palette: "\f12a";
+    $font-fl-044-transform: "\f12b";
+    $font-fl-045-paint-brush: "\f12c";
+    $font-fl-046-paint-spray: "\f12d";
+    $font-fl-047-paint-roller: "\f12e";
+    $font-fl-048-color-palette: "\f12f";
+    $font-fl-049-ideas: "\f130";
+    $font-fl-050-vector: "\f131";

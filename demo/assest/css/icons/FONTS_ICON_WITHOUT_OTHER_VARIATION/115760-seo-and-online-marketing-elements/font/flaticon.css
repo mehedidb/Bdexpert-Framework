@@ -1,0 +1,81 @@
+	/*
+  	fl icon font: fl
+  	Creation date: 22/06/2016 15:31
+  	*/
+
+@font-face {
+  font-family: "fl";
+  src: url("./fl.eot");
+  src: url("./fl.eot?#iefix") format("embedded-opentype"),
+       url("./fl.woff") format("woff"),
+       url("./fl.ttf") format("truetype"),
+       url("./fl.svg#fl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fl";
+    src: url("./fl.svg#fl") format("svg");
+  }
+}
+
+[class^="fl-"]:before, [class*=" fl-"]:before,
+[class^="fl-"]:after, [class*=" fl-"]:after {   
+  font-family: fl;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.fl-analytics:before { content: "\f100"; }
+.fl-backup:before { content: "\f101"; }
+.fl-blogging:before { content: "\f102"; }
+.fl-browser:before { content: "\f103"; }
+.fl-browser-1:before { content: "\f104"; }
+.fl-browser-2:before { content: "\f105"; }
+.fl-bug:before { content: "\f106"; }
+.fl-cloud-computing:before { content: "\f107"; }
+.fl-coding:before { content: "\f108"; }
+.fl-customer:before { content: "\f109"; }
+.fl-design:before { content: "\f10a"; }
+.fl-devices:before { content: "\f10b"; }
+.fl-domain-registration:before { content: "\f10c"; }
+.fl-email:before { content: "\f10d"; }
+.fl-folder:before { content: "\f10e"; }
+.fl-funnel:before { content: "\f10f"; }
+.fl-idea:before { content: "\f110"; }
+.fl-image:before { content: "\f111"; }
+.fl-keywords:before { content: "\f112"; }
+.fl-link:before { content: "\f113"; }
+.fl-map:before { content: "\f114"; }
+.fl-monitoring:before { content: "\f115"; }
+.fl-music:before { content: "\f116"; }
+.fl-newspaper:before { content: "\f117"; }
+.fl-online-shop:before { content: "\f118"; }
+.fl-pay-per-click:before { content: "\f119"; }
+.fl-quality:before { content: "\f11a"; }
+.fl-ranking:before { content: "\f11b"; }
+.fl-screen:before { content: "\f11c"; }
+.fl-search:before { content: "\f11d"; }
+.fl-search-1:before { content: "\f11e"; }
+.fl-search-engine:before { content: "\f11f"; }
+.fl-search-engine-1:before { content: "\f120"; }
+.fl-server:before { content: "\f121"; }
+.fl-shared-folder:before { content: "\f122"; }
+.fl-sharing-archives:before { content: "\f123"; }
+.fl-shield:before { content: "\f124"; }
+.fl-sitemap:before { content: "\f125"; }
+.fl-smartphone:before { content: "\f126"; }
+.fl-social-media:before { content: "\f127"; }
+.fl-speech-bubbles:before { content: "\f128"; }
+.fl-speedometer:before { content: "\f129"; }
+.fl-stats:before { content: "\f12a"; }
+.fl-tags:before { content: "\f12b"; }
+.fl-target:before { content: "\f12c"; }
+.fl-targeting:before { content: "\f12d"; }
+.fl-translation:before { content: "\f12e"; }
+.fl-typewriter:before { content: "\f12f"; }
+.fl-video:before { content: "\f130"; }
+.fl-viral-marketing:before { content: "\f131"; }

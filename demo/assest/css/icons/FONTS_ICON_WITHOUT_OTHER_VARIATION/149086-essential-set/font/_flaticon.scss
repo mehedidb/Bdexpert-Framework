@@ -1,0 +1,799 @@
+    /*
+    fl icon font: fl
+    Creation date: 22/06/2016 15:41
+    */
+
+    @font-face {
+  font-family: "fl";
+  src: url("./fl.eot");
+  src: url("./fl.eot?#iefix") format("embedded-opentype"),
+       url("./fl.woff") format("woff"),
+       url("./fl.ttf") format("truetype"),
+       url("./fl.svg#fl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fl";
+    src: url("./fl.svg#fl") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "fl";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .fl-add:before { content: "\f100"; }
+.fl-add-1:before { content: "\f101"; }
+.fl-add-2:before { content: "\f102"; }
+.fl-add-3:before { content: "\f103"; }
+.fl-agenda:before { content: "\f104"; }
+.fl-alarm:before { content: "\f105"; }
+.fl-alarm-1:before { content: "\f106"; }
+.fl-alarm-clock:before { content: "\f107"; }
+.fl-alarm-clock-1:before { content: "\f108"; }
+.fl-albums:before { content: "\f109"; }
+.fl-app:before { content: "\f10a"; }
+.fl-archive:before { content: "\f10b"; }
+.fl-archive-1:before { content: "\f10c"; }
+.fl-archive-2:before { content: "\f10d"; }
+.fl-archive-3:before { content: "\f10e"; }
+.fl-attachment:before { content: "\f10f"; }
+.fl-back:before { content: "\f110"; }
+.fl-battery:before { content: "\f111"; }
+.fl-battery-1:before { content: "\f112"; }
+.fl-battery-2:before { content: "\f113"; }
+.fl-battery-3:before { content: "\f114"; }
+.fl-battery-4:before { content: "\f115"; }
+.fl-battery-5:before { content: "\f116"; }
+.fl-battery-6:before { content: "\f117"; }
+.fl-battery-7:before { content: "\f118"; }
+.fl-battery-8:before { content: "\f119"; }
+.fl-battery-9:before { content: "\f11a"; }
+.fl-binoculars:before { content: "\f11b"; }
+.fl-blueprint:before { content: "\f11c"; }
+.fl-bluetooth:before { content: "\f11d"; }
+.fl-bluetooth-1:before { content: "\f11e"; }
+.fl-bookmark:before { content: "\f11f"; }
+.fl-bookmark-1:before { content: "\f120"; }
+.fl-briefcase:before { content: "\f121"; }
+.fl-broken-link:before { content: "\f122"; }
+.fl-calculator:before { content: "\f123"; }
+.fl-calculator-1:before { content: "\f124"; }
+.fl-calendar:before { content: "\f125"; }
+.fl-calendar-1:before { content: "\f126"; }
+.fl-calendar-2:before { content: "\f127"; }
+.fl-calendar-3:before { content: "\f128"; }
+.fl-calendar-4:before { content: "\f129"; }
+.fl-calendar-5:before { content: "\f12a"; }
+.fl-calendar-6:before { content: "\f12b"; }
+.fl-calendar-7:before { content: "\f12c"; }
+.fl-checked:before { content: "\f12d"; }
+.fl-checked-1:before { content: "\f12e"; }
+.fl-clock:before { content: "\f12f"; }
+.fl-clock-1:before { content: "\f130"; }
+.fl-close:before { content: "\f131"; }
+.fl-cloud:before { content: "\f132"; }
+.fl-cloud-computing:before { content: "\f133"; }
+.fl-cloud-computing-1:before { content: "\f134"; }
+.fl-cloud-computing-2:before { content: "\f135"; }
+.fl-cloud-computing-3:before { content: "\f136"; }
+.fl-cloud-computing-4:before { content: "\f137"; }
+.fl-cloud-computing-5:before { content: "\f138"; }
+.fl-command:before { content: "\f139"; }
+.fl-compact-disc:before { content: "\f13a"; }
+.fl-compact-disc-1:before { content: "\f13b"; }
+.fl-compact-disc-2:before { content: "\f13c"; }
+.fl-compass:before { content: "\f13d"; }
+.fl-compose:before { content: "\f13e"; }
+.fl-controls:before { content: "\f13f"; }
+.fl-controls-1:before { content: "\f140"; }
+.fl-controls-2:before { content: "\f141"; }
+.fl-controls-3:before { content: "\f142"; }
+.fl-controls-4:before { content: "\f143"; }
+.fl-controls-5:before { content: "\f144"; }
+.fl-controls-6:before { content: "\f145"; }
+.fl-controls-7:before { content: "\f146"; }
+.fl-controls-8:before { content: "\f147"; }
+.fl-controls-9:before { content: "\f148"; }
+.fl-database:before { content: "\f149"; }
+.fl-database-1:before { content: "\f14a"; }
+.fl-database-2:before { content: "\f14b"; }
+.fl-database-3:before { content: "\f14c"; }
+.fl-diamond:before { content: "\f14d"; }
+.fl-diploma:before { content: "\f14e"; }
+.fl-dislike:before { content: "\f14f"; }
+.fl-dislike-1:before { content: "\f150"; }
+.fl-divide:before { content: "\f151"; }
+.fl-divide-1:before { content: "\f152"; }
+.fl-division:before { content: "\f153"; }
+.fl-document:before { content: "\f154"; }
+.fl-download:before { content: "\f155"; }
+.fl-edit:before { content: "\f156"; }
+.fl-edit-1:before { content: "\f157"; }
+.fl-eject:before { content: "\f158"; }
+.fl-eject-1:before { content: "\f159"; }
+.fl-equal:before { content: "\f15a"; }
+.fl-equal-1:before { content: "\f15b"; }
+.fl-equal-2:before { content: "\f15c"; }
+.fl-error:before { content: "\f15d"; }
+.fl-exit:before { content: "\f15e"; }
+.fl-exit-1:before { content: "\f15f"; }
+.fl-exit-2:before { content: "\f160"; }
+.fl-eyeglasses:before { content: "\f161"; }
+.fl-fast-forward:before { content: "\f162"; }
+.fl-fast-forward-1:before { content: "\f163"; }
+.fl-fax:before { content: "\f164"; }
+.fl-file:before { content: "\f165"; }
+.fl-file-1:before { content: "\f166"; }
+.fl-file-2:before { content: "\f167"; }
+.fl-film:before { content: "\f168"; }
+.fl-fingerprint:before { content: "\f169"; }
+.fl-flag:before { content: "\f16a"; }
+.fl-flag-1:before { content: "\f16b"; }
+.fl-flag-2:before { content: "\f16c"; }
+.fl-flag-3:before { content: "\f16d"; }
+.fl-flag-4:before { content: "\f16e"; }
+.fl-focus:before { content: "\f16f"; }
+.fl-folder:before { content: "\f170"; }
+.fl-folder-1:before { content: "\f171"; }
+.fl-folder-10:before { content: "\f172"; }
+.fl-folder-11:before { content: "\f173"; }
+.fl-folder-12:before { content: "\f174"; }
+.fl-folder-13:before { content: "\f175"; }
+.fl-folder-14:before { content: "\f176"; }
+.fl-folder-15:before { content: "\f177"; }
+.fl-folder-16:before { content: "\f178"; }
+.fl-folder-17:before { content: "\f179"; }
+.fl-folder-18:before { content: "\f17a"; }
+.fl-folder-19:before { content: "\f17b"; }
+.fl-folder-2:before { content: "\f17c"; }
+.fl-folder-3:before { content: "\f17d"; }
+.fl-folder-4:before { content: "\f17e"; }
+.fl-folder-5:before { content: "\f17f"; }
+.fl-folder-6:before { content: "\f180"; }
+.fl-folder-7:before { content: "\f181"; }
+.fl-folder-8:before { content: "\f182"; }
+.fl-folder-9:before { content: "\f183"; }
+.fl-forbidden:before { content: "\f184"; }
+.fl-funnel:before { content: "\f185"; }
+.fl-garbage:before { content: "\f186"; }
+.fl-garbage-1:before { content: "\f187"; }
+.fl-garbage-2:before { content: "\f188"; }
+.fl-gift:before { content: "\f189"; }
+.fl-help:before { content: "\f18a"; }
+.fl-hide:before { content: "\f18b"; }
+.fl-hold:before { content: "\f18c"; }
+.fl-home:before { content: "\f18d"; }
+.fl-home-1:before { content: "\f18e"; }
+.fl-home-2:before { content: "\f18f"; }
+.fl-hourglass:before { content: "\f190"; }
+.fl-hourglass-1:before { content: "\f191"; }
+.fl-hourglass-2:before { content: "\f192"; }
+.fl-hourglass-3:before { content: "\f193"; }
+.fl-house:before { content: "\f194"; }
+.fl-id-card:before { content: "\f195"; }
+.fl-id-card-1:before { content: "\f196"; }
+.fl-id-card-2:before { content: "\f197"; }
+.fl-id-card-3:before { content: "\f198"; }
+.fl-id-card-4:before { content: "\f199"; }
+.fl-id-card-5:before { content: "\f19a"; }
+.fl-idea:before { content: "\f19b"; }
+.fl-incoming:before { content: "\f19c"; }
+.fl-infinity:before { content: "\f19d"; }
+.fl-info:before { content: "\f19e"; }
+.fl-internet:before { content: "\f19f"; }
+.fl-key:before { content: "\f1a0"; }
+.fl-lamp:before { content: "\f1a1"; }
+.fl-layers:before { content: "\f1a2"; }
+.fl-layers-1:before { content: "\f1a3"; }
+.fl-like:before { content: "\f1a4"; }
+.fl-like-1:before { content: "\f1a5"; }
+.fl-like-2:before { content: "\f1a6"; }
+.fl-link:before { content: "\f1a7"; }
+.fl-list:before { content: "\f1a8"; }
+.fl-list-1:before { content: "\f1a9"; }
+.fl-lock:before { content: "\f1aa"; }
+.fl-lock-1:before { content: "\f1ab"; }
+.fl-locked:before { content: "\f1ac"; }
+.fl-locked-1:before { content: "\f1ad"; }
+.fl-locked-2:before { content: "\f1ae"; }
+.fl-locked-3:before { content: "\f1af"; }
+.fl-locked-4:before { content: "\f1b0"; }
+.fl-locked-5:before { content: "\f1b1"; }
+.fl-locked-6:before { content: "\f1b2"; }
+.fl-login:before { content: "\f1b3"; }
+.fl-magic-wand:before { content: "\f1b4"; }
+.fl-magnet:before { content: "\f1b5"; }
+.fl-magnet-1:before { content: "\f1b6"; }
+.fl-magnet-2:before { content: "\f1b7"; }
+.fl-map:before { content: "\f1b8"; }
+.fl-map-1:before { content: "\f1b9"; }
+.fl-map-2:before { content: "\f1ba"; }
+.fl-map-location:before { content: "\f1bb"; }
+.fl-megaphone:before { content: "\f1bc"; }
+.fl-megaphone-1:before { content: "\f1bd"; }
+.fl-menu:before { content: "\f1be"; }
+.fl-menu-1:before { content: "\f1bf"; }
+.fl-menu-2:before { content: "\f1c0"; }
+.fl-menu-3:before { content: "\f1c1"; }
+.fl-menu-4:before { content: "\f1c2"; }
+.fl-microphone:before { content: "\f1c3"; }
+.fl-microphone-1:before { content: "\f1c4"; }
+.fl-minus:before { content: "\f1c5"; }
+.fl-minus-1:before { content: "\f1c6"; }
+.fl-more:before { content: "\f1c7"; }
+.fl-more-1:before { content: "\f1c8"; }
+.fl-more-2:before { content: "\f1c9"; }
+.fl-multiply:before { content: "\f1ca"; }
+.fl-multiply-1:before { content: "\f1cb"; }
+.fl-music-player:before { content: "\f1cc"; }
+.fl-music-player-1:before { content: "\f1cd"; }
+.fl-music-player-2:before { content: "\f1ce"; }
+.fl-music-player-3:before { content: "\f1cf"; }
+.fl-mute:before { content: "\f1d0"; }
+.fl-muted:before { content: "\f1d1"; }
+.fl-navigation:before { content: "\f1d2"; }
+.fl-navigation-1:before { content: "\f1d3"; }
+.fl-network:before { content: "\f1d4"; }
+.fl-newspaper:before { content: "\f1d5"; }
+.fl-next:before { content: "\f1d6"; }
+.fl-note:before { content: "\f1d7"; }
+.fl-notebook:before { content: "\f1d8"; }
+.fl-notebook-1:before { content: "\f1d9"; }
+.fl-notebook-2:before { content: "\f1da"; }
+.fl-notebook-3:before { content: "\f1db"; }
+.fl-notebook-4:before { content: "\f1dc"; }
+.fl-notebook-5:before { content: "\f1dd"; }
+.fl-notepad:before { content: "\f1de"; }
+.fl-notepad-1:before { content: "\f1df"; }
+.fl-notepad-2:before { content: "\f1e0"; }
+.fl-notification:before { content: "\f1e1"; }
+.fl-paper-plane:before { content: "\f1e2"; }
+.fl-paper-plane-1:before { content: "\f1e3"; }
+.fl-pause:before { content: "\f1e4"; }
+.fl-pause-1:before { content: "\f1e5"; }
+.fl-percent:before { content: "\f1e6"; }
+.fl-percent-1:before { content: "\f1e7"; }
+.fl-perspective:before { content: "\f1e8"; }
+.fl-photo-camera:before { content: "\f1e9"; }
+.fl-photo-camera-1:before { content: "\f1ea"; }
+.fl-photos:before { content: "\f1eb"; }
+.fl-picture:before { content: "\f1ec"; }
+.fl-picture-1:before { content: "\f1ed"; }
+.fl-picture-2:before { content: "\f1ee"; }
+.fl-pin:before { content: "\f1ef"; }
+.fl-placeholder:before { content: "\f1f0"; }
+.fl-placeholder-1:before { content: "\f1f1"; }
+.fl-placeholder-2:before { content: "\f1f2"; }
+.fl-placeholder-3:before { content: "\f1f3"; }
+.fl-placeholders:before { content: "\f1f4"; }
+.fl-play-button:before { content: "\f1f5"; }
+.fl-play-button-1:before { content: "\f1f6"; }
+.fl-plus:before { content: "\f1f7"; }
+.fl-power:before { content: "\f1f8"; }
+.fl-previous:before { content: "\f1f9"; }
+.fl-price-tag:before { content: "\f1fa"; }
+.fl-print:before { content: "\f1fb"; }
+.fl-push-pin:before { content: "\f1fc"; }
+.fl-radar:before { content: "\f1fd"; }
+.fl-reading:before { content: "\f1fe"; }
+.fl-record:before { content: "\f1ff"; }
+.fl-repeat:before { content: "\f200"; }
+.fl-repeat-1:before { content: "\f201"; }
+.fl-restart:before { content: "\f202"; }
+.fl-resume:before { content: "\f203"; }
+.fl-rewind:before { content: "\f204"; }
+.fl-rewind-1:before { content: "\f205"; }
+.fl-route:before { content: "\f206"; }
+.fl-save:before { content: "\f207"; }
+.fl-search:before { content: "\f208"; }
+.fl-search-1:before { content: "\f209"; }
+.fl-send:before { content: "\f20a"; }
+.fl-server:before { content: "\f20b"; }
+.fl-server-1:before { content: "\f20c"; }
+.fl-server-2:before { content: "\f20d"; }
+.fl-server-3:before { content: "\f20e"; }
+.fl-settings:before { content: "\f20f"; }
+.fl-settings-1:before { content: "\f210"; }
+.fl-settings-2:before { content: "\f211"; }
+.fl-settings-3:before { content: "\f212"; }
+.fl-settings-4:before { content: "\f213"; }
+.fl-settings-5:before { content: "\f214"; }
+.fl-settings-6:before { content: "\f215"; }
+.fl-settings-7:before { content: "\f216"; }
+.fl-settings-8:before { content: "\f217"; }
+.fl-settings-9:before { content: "\f218"; }
+.fl-share:before { content: "\f219"; }
+.fl-share-1:before { content: "\f21a"; }
+.fl-share-2:before { content: "\f21b"; }
+.fl-shuffle:before { content: "\f21c"; }
+.fl-shuffle-1:before { content: "\f21d"; }
+.fl-shutdown:before { content: "\f21e"; }
+.fl-sign:before { content: "\f21f"; }
+.fl-sign-1:before { content: "\f220"; }
+.fl-skip:before { content: "\f221"; }
+.fl-smartphone:before { content: "\f222"; }
+.fl-smartphone-1:before { content: "\f223"; }
+.fl-smartphone-10:before { content: "\f224"; }
+.fl-smartphone-11:before { content: "\f225"; }
+.fl-smartphone-2:before { content: "\f226"; }
+.fl-smartphone-3:before { content: "\f227"; }
+.fl-smartphone-4:before { content: "\f228"; }
+.fl-smartphone-5:before { content: "\f229"; }
+.fl-smartphone-6:before { content: "\f22a"; }
+.fl-smartphone-7:before { content: "\f22b"; }
+.fl-smartphone-8:before { content: "\f22c"; }
+.fl-smartphone-9:before { content: "\f22d"; }
+.fl-speaker:before { content: "\f22e"; }
+.fl-speaker-1:before { content: "\f22f"; }
+.fl-speaker-2:before { content: "\f230"; }
+.fl-speaker-3:before { content: "\f231"; }
+.fl-speaker-4:before { content: "\f232"; }
+.fl-speaker-5:before { content: "\f233"; }
+.fl-speaker-6:before { content: "\f234"; }
+.fl-speaker-7:before { content: "\f235"; }
+.fl-speaker-8:before { content: "\f236"; }
+.fl-spotlight:before { content: "\f237"; }
+.fl-star:before { content: "\f238"; }
+.fl-star-1:before { content: "\f239"; }
+.fl-stop:before { content: "\f23a"; }
+.fl-stop-1:before { content: "\f23b"; }
+.fl-stopwatch:before { content: "\f23c"; }
+.fl-stopwatch-1:before { content: "\f23d"; }
+.fl-stopwatch-2:before { content: "\f23e"; }
+.fl-stopwatch-3:before { content: "\f23f"; }
+.fl-stopwatch-4:before { content: "\f240"; }
+.fl-street:before { content: "\f241"; }
+.fl-street-1:before { content: "\f242"; }
+.fl-substract:before { content: "\f243"; }
+.fl-substract-1:before { content: "\f244"; }
+.fl-success:before { content: "\f245"; }
+.fl-switch:before { content: "\f246"; }
+.fl-switch-1:before { content: "\f247"; }
+.fl-switch-2:before { content: "\f248"; }
+.fl-switch-3:before { content: "\f249"; }
+.fl-switch-4:before { content: "\f24a"; }
+.fl-switch-5:before { content: "\f24b"; }
+.fl-switch-6:before { content: "\f24c"; }
+.fl-switch-7:before { content: "\f24d"; }
+.fl-tabs:before { content: "\f24e"; }
+.fl-tabs-1:before { content: "\f24f"; }
+.fl-target:before { content: "\f250"; }
+.fl-television:before { content: "\f251"; }
+.fl-television-1:before { content: "\f252"; }
+.fl-time:before { content: "\f253"; }
+.fl-trash:before { content: "\f254"; }
+.fl-umbrella:before { content: "\f255"; }
+.fl-unlink:before { content: "\f256"; }
+.fl-unlocked:before { content: "\f257"; }
+.fl-unlocked-1:before { content: "\f258"; }
+.fl-unlocked-2:before { content: "\f259"; }
+.fl-upload:before { content: "\f25a"; }
+.fl-user:before { content: "\f25b"; }
+.fl-user-1:before { content: "\f25c"; }
+.fl-user-2:before { content: "\f25d"; }
+.fl-user-3:before { content: "\f25e"; }
+.fl-user-4:before { content: "\f25f"; }
+.fl-user-5:before { content: "\f260"; }
+.fl-user-6:before { content: "\f261"; }
+.fl-user-7:before { content: "\f262"; }
+.fl-users:before { content: "\f263"; }
+.fl-users-1:before { content: "\f264"; }
+.fl-video-camera:before { content: "\f265"; }
+.fl-video-camera-1:before { content: "\f266"; }
+.fl-video-player:before { content: "\f267"; }
+.fl-video-player-1:before { content: "\f268"; }
+.fl-video-player-2:before { content: "\f269"; }
+.fl-view:before { content: "\f26a"; }
+.fl-view-1:before { content: "\f26b"; }
+.fl-view-2:before { content: "\f26c"; }
+.fl-volume-control:before { content: "\f26d"; }
+.fl-volume-control-1:before { content: "\f26e"; }
+.fl-warning:before { content: "\f26f"; }
+.fl-wifi:before { content: "\f270"; }
+.fl-wifi-1:before { content: "\f271"; }
+.fl-windows:before { content: "\f272"; }
+.fl-windows-1:before { content: "\f273"; }
+.fl-windows-2:before { content: "\f274"; }
+.fl-windows-3:before { content: "\f275"; }
+.fl-windows-4:before { content: "\f276"; }
+.fl-wireless-internet:before { content: "\f277"; }
+.fl-worldwide:before { content: "\f278"; }
+.fl-worldwide-1:before { content: "\f279"; }
+.fl-zoom-in:before { content: "\f27a"; }
+.fl-zoom-out:before { content: "\f27b"; }
+    
+    $font-fl-add: "\f100";
+    $font-fl-add-1: "\f101";
+    $font-fl-add-2: "\f102";
+    $font-fl-add-3: "\f103";
+    $font-fl-agenda: "\f104";
+    $font-fl-alarm: "\f105";
+    $font-fl-alarm-1: "\f106";
+    $font-fl-alarm-clock: "\f107";
+    $font-fl-alarm-clock-1: "\f108";
+    $font-fl-albums: "\f109";
+    $font-fl-app: "\f10a";
+    $font-fl-archive: "\f10b";
+    $font-fl-archive-1: "\f10c";
+    $font-fl-archive-2: "\f10d";
+    $font-fl-archive-3: "\f10e";
+    $font-fl-attachment: "\f10f";
+    $font-fl-back: "\f110";
+    $font-fl-battery: "\f111";
+    $font-fl-battery-1: "\f112";
+    $font-fl-battery-2: "\f113";
+    $font-fl-battery-3: "\f114";
+    $font-fl-battery-4: "\f115";
+    $font-fl-battery-5: "\f116";
+    $font-fl-battery-6: "\f117";
+    $font-fl-battery-7: "\f118";
+    $font-fl-battery-8: "\f119";
+    $font-fl-battery-9: "\f11a";
+    $font-fl-binoculars: "\f11b";
+    $font-fl-blueprint: "\f11c";
+    $font-fl-bluetooth: "\f11d";
+    $font-fl-bluetooth-1: "\f11e";
+    $font-fl-bookmark: "\f11f";
+    $font-fl-bookmark-1: "\f120";
+    $font-fl-briefcase: "\f121";
+    $font-fl-broken-link: "\f122";
+    $font-fl-calculator: "\f123";
+    $font-fl-calculator-1: "\f124";
+    $font-fl-calendar: "\f125";
+    $font-fl-calendar-1: "\f126";
+    $font-fl-calendar-2: "\f127";
+    $font-fl-calendar-3: "\f128";
+    $font-fl-calendar-4: "\f129";
+    $font-fl-calendar-5: "\f12a";
+    $font-fl-calendar-6: "\f12b";
+    $font-fl-calendar-7: "\f12c";
+    $font-fl-checked: "\f12d";
+    $font-fl-checked-1: "\f12e";
+    $font-fl-clock: "\f12f";
+    $font-fl-clock-1: "\f130";
+    $font-fl-close: "\f131";
+    $font-fl-cloud: "\f132";
+    $font-fl-cloud-computing: "\f133";
+    $font-fl-cloud-computing-1: "\f134";
+    $font-fl-cloud-computing-2: "\f135";
+    $font-fl-cloud-computing-3: "\f136";
+    $font-fl-cloud-computing-4: "\f137";
+    $font-fl-cloud-computing-5: "\f138";
+    $font-fl-command: "\f139";
+    $font-fl-compact-disc: "\f13a";
+    $font-fl-compact-disc-1: "\f13b";
+    $font-fl-compact-disc-2: "\f13c";
+    $font-fl-compass: "\f13d";
+    $font-fl-compose: "\f13e";
+    $font-fl-controls: "\f13f";
+    $font-fl-controls-1: "\f140";
+    $font-fl-controls-2: "\f141";
+    $font-fl-controls-3: "\f142";
+    $font-fl-controls-4: "\f143";
+    $font-fl-controls-5: "\f144";
+    $font-fl-controls-6: "\f145";
+    $font-fl-controls-7: "\f146";
+    $font-fl-controls-8: "\f147";
+    $font-fl-controls-9: "\f148";
+    $font-fl-database: "\f149";
+    $font-fl-database-1: "\f14a";
+    $font-fl-database-2: "\f14b";
+    $font-fl-database-3: "\f14c";
+    $font-fl-diamond: "\f14d";
+    $font-fl-diploma: "\f14e";
+    $font-fl-dislike: "\f14f";
+    $font-fl-dislike-1: "\f150";
+    $font-fl-divide: "\f151";
+    $font-fl-divide-1: "\f152";
+    $font-fl-division: "\f153";
+    $font-fl-document: "\f154";
+    $font-fl-download: "\f155";
+    $font-fl-edit: "\f156";
+    $font-fl-edit-1: "\f157";
+    $font-fl-eject: "\f158";
+    $font-fl-eject-1: "\f159";
+    $font-fl-equal: "\f15a";
+    $font-fl-equal-1: "\f15b";
+    $font-fl-equal-2: "\f15c";
+    $font-fl-error: "\f15d";
+    $font-fl-exit: "\f15e";
+    $font-fl-exit-1: "\f15f";
+    $font-fl-exit-2: "\f160";
+    $font-fl-eyeglasses: "\f161";
+    $font-fl-fast-forward: "\f162";
+    $font-fl-fast-forward-1: "\f163";
+    $font-fl-fax: "\f164";
+    $font-fl-file: "\f165";
+    $font-fl-file-1: "\f166";
+    $font-fl-file-2: "\f167";
+    $font-fl-film: "\f168";
+    $font-fl-fingerprint: "\f169";
+    $font-fl-flag: "\f16a";
+    $font-fl-flag-1: "\f16b";
+    $font-fl-flag-2: "\f16c";
+    $font-fl-flag-3: "\f16d";
+    $font-fl-flag-4: "\f16e";
+    $font-fl-focus: "\f16f";
+    $font-fl-folder: "\f170";
+    $font-fl-folder-1: "\f171";
+    $font-fl-folder-10: "\f172";
+    $font-fl-folder-11: "\f173";
+    $font-fl-folder-12: "\f174";
+    $font-fl-folder-13: "\f175";
+    $font-fl-folder-14: "\f176";
+    $font-fl-folder-15: "\f177";
+    $font-fl-folder-16: "\f178";
+    $font-fl-folder-17: "\f179";
+    $font-fl-folder-18: "\f17a";
+    $font-fl-folder-19: "\f17b";
+    $font-fl-folder-2: "\f17c";
+    $font-fl-folder-3: "\f17d";
+    $font-fl-folder-4: "\f17e";
+    $font-fl-folder-5: "\f17f";
+    $font-fl-folder-6: "\f180";
+    $font-fl-folder-7: "\f181";
+    $font-fl-folder-8: "\f182";
+    $font-fl-folder-9: "\f183";
+    $font-fl-forbidden: "\f184";
+    $font-fl-funnel: "\f185";
+    $font-fl-garbage: "\f186";
+    $font-fl-garbage-1: "\f187";
+    $font-fl-garbage-2: "\f188";
+    $font-fl-gift: "\f189";
+    $font-fl-help: "\f18a";
+    $font-fl-hide: "\f18b";
+    $font-fl-hold: "\f18c";
+    $font-fl-home: "\f18d";
+    $font-fl-home-1: "\f18e";
+    $font-fl-home-2: "\f18f";
+    $font-fl-hourglass: "\f190";
+    $font-fl-hourglass-1: "\f191";
+    $font-fl-hourglass-2: "\f192";
+    $font-fl-hourglass-3: "\f193";
+    $font-fl-house: "\f194";
+    $font-fl-id-card: "\f195";
+    $font-fl-id-card-1: "\f196";
+    $font-fl-id-card-2: "\f197";
+    $font-fl-id-card-3: "\f198";
+    $font-fl-id-card-4: "\f199";
+    $font-fl-id-card-5: "\f19a";
+    $font-fl-idea: "\f19b";
+    $font-fl-incoming: "\f19c";
+    $font-fl-infinity: "\f19d";
+    $font-fl-info: "\f19e";
+    $font-fl-internet: "\f19f";
+    $font-fl-key: "\f1a0";
+    $font-fl-lamp: "\f1a1";
+    $font-fl-layers: "\f1a2";
+    $font-fl-layers-1: "\f1a3";
+    $font-fl-like: "\f1a4";
+    $font-fl-like-1: "\f1a5";
+    $font-fl-like-2: "\f1a6";
+    $font-fl-link: "\f1a7";
+    $font-fl-list: "\f1a8";
+    $font-fl-list-1: "\f1a9";
+    $font-fl-lock: "\f1aa";
+    $font-fl-lock-1: "\f1ab";
+    $font-fl-locked: "\f1ac";
+    $font-fl-locked-1: "\f1ad";
+    $font-fl-locked-2: "\f1ae";
+    $font-fl-locked-3: "\f1af";
+    $font-fl-locked-4: "\f1b0";
+    $font-fl-locked-5: "\f1b1";
+    $font-fl-locked-6: "\f1b2";
+    $font-fl-login: "\f1b3";
+    $font-fl-magic-wand: "\f1b4";
+    $font-fl-magnet: "\f1b5";
+    $font-fl-magnet-1: "\f1b6";
+    $font-fl-magnet-2: "\f1b7";
+    $font-fl-map: "\f1b8";
+    $font-fl-map-1: "\f1b9";
+    $font-fl-map-2: "\f1ba";
+    $font-fl-map-location: "\f1bb";
+    $font-fl-megaphone: "\f1bc";
+    $font-fl-megaphone-1: "\f1bd";
+    $font-fl-menu: "\f1be";
+    $font-fl-menu-1: "\f1bf";
+    $font-fl-menu-2: "\f1c0";
+    $font-fl-menu-3: "\f1c1";
+    $font-fl-menu-4: "\f1c2";
+    $font-fl-microphone: "\f1c3";
+    $font-fl-microphone-1: "\f1c4";
+    $font-fl-minus: "\f1c5";
+    $font-fl-minus-1: "\f1c6";
+    $font-fl-more: "\f1c7";
+    $font-fl-more-1: "\f1c8";
+    $font-fl-more-2: "\f1c9";
+    $font-fl-multiply: "\f1ca";
+    $font-fl-multiply-1: "\f1cb";
+    $font-fl-music-player: "\f1cc";
+    $font-fl-music-player-1: "\f1cd";
+    $font-fl-music-player-2: "\f1ce";
+    $font-fl-music-player-3: "\f1cf";
+    $font-fl-mute: "\f1d0";
+    $font-fl-muted: "\f1d1";
+    $font-fl-navigation: "\f1d2";
+    $font-fl-navigation-1: "\f1d3";
+    $font-fl-network: "\f1d4";
+    $font-fl-newspaper: "\f1d5";
+    $font-fl-next: "\f1d6";
+    $font-fl-note: "\f1d7";
+    $font-fl-notebook: "\f1d8";
+    $font-fl-notebook-1: "\f1d9";
+    $font-fl-notebook-2: "\f1da";
+    $font-fl-notebook-3: "\f1db";
+    $font-fl-notebook-4: "\f1dc";
+    $font-fl-notebook-5: "\f1dd";
+    $font-fl-notepad: "\f1de";
+    $font-fl-notepad-1: "\f1df";
+    $font-fl-notepad-2: "\f1e0";
+    $font-fl-notification: "\f1e1";
+    $font-fl-paper-plane: "\f1e2";
+    $font-fl-paper-plane-1: "\f1e3";
+    $font-fl-pause: "\f1e4";
+    $font-fl-pause-1: "\f1e5";
+    $font-fl-percent: "\f1e6";
+    $font-fl-percent-1: "\f1e7";
+    $font-fl-perspective: "\f1e8";
+    $font-fl-photo-camera: "\f1e9";
+    $font-fl-photo-camera-1: "\f1ea";
+    $font-fl-photos: "\f1eb";
+    $font-fl-picture: "\f1ec";
+    $font-fl-picture-1: "\f1ed";
+    $font-fl-picture-2: "\f1ee";
+    $font-fl-pin: "\f1ef";
+    $font-fl-placeholder: "\f1f0";
+    $font-fl-placeholder-1: "\f1f1";
+    $font-fl-placeholder-2: "\f1f2";
+    $font-fl-placeholder-3: "\f1f3";
+    $font-fl-placeholders: "\f1f4";
+    $font-fl-play-button: "\f1f5";
+    $font-fl-play-button-1: "\f1f6";
+    $font-fl-plus: "\f1f7";
+    $font-fl-power: "\f1f8";
+    $font-fl-previous: "\f1f9";
+    $font-fl-price-tag: "\f1fa";
+    $font-fl-print: "\f1fb";
+    $font-fl-push-pin: "\f1fc";
+    $font-fl-radar: "\f1fd";
+    $font-fl-reading: "\f1fe";
+    $font-fl-record: "\f1ff";
+    $font-fl-repeat: "\f200";
+    $font-fl-repeat-1: "\f201";
+    $font-fl-restart: "\f202";
+    $font-fl-resume: "\f203";
+    $font-fl-rewind: "\f204";
+    $font-fl-rewind-1: "\f205";
+    $font-fl-route: "\f206";
+    $font-fl-save: "\f207";
+    $font-fl-search: "\f208";
+    $font-fl-search-1: "\f209";
+    $font-fl-send: "\f20a";
+    $font-fl-server: "\f20b";
+    $font-fl-server-1: "\f20c";
+    $font-fl-server-2: "\f20d";
+    $font-fl-server-3: "\f20e";
+    $font-fl-settings: "\f20f";
+    $font-fl-settings-1: "\f210";
+    $font-fl-settings-2: "\f211";
+    $font-fl-settings-3: "\f212";
+    $font-fl-settings-4: "\f213";
+    $font-fl-settings-5: "\f214";
+    $font-fl-settings-6: "\f215";
+    $font-fl-settings-7: "\f216";
+    $font-fl-settings-8: "\f217";
+    $font-fl-settings-9: "\f218";
+    $font-fl-share: "\f219";
+    $font-fl-share-1: "\f21a";
+    $font-fl-share-2: "\f21b";
+    $font-fl-shuffle: "\f21c";
+    $font-fl-shuffle-1: "\f21d";
+    $font-fl-shutdown: "\f21e";
+    $font-fl-sign: "\f21f";
+    $font-fl-sign-1: "\f220";
+    $font-fl-skip: "\f221";
+    $font-fl-smartphone: "\f222";
+    $font-fl-smartphone-1: "\f223";
+    $font-fl-smartphone-10: "\f224";
+    $font-fl-smartphone-11: "\f225";
+    $font-fl-smartphone-2: "\f226";
+    $font-fl-smartphone-3: "\f227";
+    $font-fl-smartphone-4: "\f228";
+    $font-fl-smartphone-5: "\f229";
+    $font-fl-smartphone-6: "\f22a";
+    $font-fl-smartphone-7: "\f22b";
+    $font-fl-smartphone-8: "\f22c";
+    $font-fl-smartphone-9: "\f22d";
+    $font-fl-speaker: "\f22e";
+    $font-fl-speaker-1: "\f22f";
+    $font-fl-speaker-2: "\f230";
+    $font-fl-speaker-3: "\f231";
+    $font-fl-speaker-4: "\f232";
+    $font-fl-speaker-5: "\f233";
+    $font-fl-speaker-6: "\f234";
+    $font-fl-speaker-7: "\f235";
+    $font-fl-speaker-8: "\f236";
+    $font-fl-spotlight: "\f237";
+    $font-fl-star: "\f238";
+    $font-fl-star-1: "\f239";
+    $font-fl-stop: "\f23a";
+    $font-fl-stop-1: "\f23b";
+    $font-fl-stopwatch: "\f23c";
+    $font-fl-stopwatch-1: "\f23d";
+    $font-fl-stopwatch-2: "\f23e";
+    $font-fl-stopwatch-3: "\f23f";
+    $font-fl-stopwatch-4: "\f240";
+    $font-fl-street: "\f241";
+    $font-fl-street-1: "\f242";
+    $font-fl-substract: "\f243";
+    $font-fl-substract-1: "\f244";
+    $font-fl-success: "\f245";
+    $font-fl-switch: "\f246";
+    $font-fl-switch-1: "\f247";
+    $font-fl-switch-2: "\f248";
+    $font-fl-switch-3: "\f249";
+    $font-fl-switch-4: "\f24a";
+    $font-fl-switch-5: "\f24b";
+    $font-fl-switch-6: "\f24c";
+    $font-fl-switch-7: "\f24d";
+    $font-fl-tabs: "\f24e";
+    $font-fl-tabs-1: "\f24f";
+    $font-fl-target: "\f250";
+    $font-fl-television: "\f251";
+    $font-fl-television-1: "\f252";
+    $font-fl-time: "\f253";
+    $font-fl-trash: "\f254";
+    $font-fl-umbrella: "\f255";
+    $font-fl-unlink: "\f256";
+    $font-fl-unlocked: "\f257";
+    $font-fl-unlocked-1: "\f258";
+    $font-fl-unlocked-2: "\f259";
+    $font-fl-upload: "\f25a";
+    $font-fl-user: "\f25b";
+    $font-fl-user-1: "\f25c";
+    $font-fl-user-2: "\f25d";
+    $font-fl-user-3: "\f25e";
+    $font-fl-user-4: "\f25f";
+    $font-fl-user-5: "\f260";
+    $font-fl-user-6: "\f261";
+    $font-fl-user-7: "\f262";
+    $font-fl-users: "\f263";
+    $font-fl-users-1: "\f264";
+    $font-fl-video-camera: "\f265";
+    $font-fl-video-camera-1: "\f266";
+    $font-fl-video-player: "\f267";
+    $font-fl-video-player-1: "\f268";
+    $font-fl-video-player-2: "\f269";
+    $font-fl-view: "\f26a";
+    $font-fl-view-1: "\f26b";
+    $font-fl-view-2: "\f26c";
+    $font-fl-volume-control: "\f26d";
+    $font-fl-volume-control-1: "\f26e";
+    $font-fl-warning: "\f26f";
+    $font-fl-wifi: "\f270";
+    $font-fl-wifi-1: "\f271";
+    $font-fl-windows: "\f272";
+    $font-fl-windows-1: "\f273";
+    $font-fl-windows-2: "\f274";
+    $font-fl-windows-3: "\f275";
+    $font-fl-windows-4: "\f276";
+    $font-fl-wireless-internet: "\f277";
+    $font-fl-worldwide: "\f278";
+    $font-fl-worldwide-1: "\f279";
+    $font-fl-zoom-in: "\f27a";
+    $font-fl-zoom-out: "\f27b";

@@ -1,0 +1,139 @@
+    /*
+    fl icon font: fl
+    Creation date: 05/05/2017 11:01
+    */
+
+    @font-face {
+  font-family: "fl";
+  src: url("./fl.eot");
+  src: url("./fl.eot?#iefix") format("embedded-opentype"),
+       url("./fl.woff") format("woff"),
+       url("./fl.ttf") format("truetype"),
+       url("./fl.svg#fl") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fl";
+    src: url("./fl.svg#fl") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "fl";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .fl-001-stretch:before { content: "\f100"; }
+.fl-002-profile:before { content: "\f101"; }
+.fl-003-folder:before { content: "\f102"; }
+.fl-004-sitemap:before { content: "\f103"; }
+.fl-005-tea-cup:before { content: "\f104"; }
+.fl-006-notebook:before { content: "\f105"; }
+.fl-007-tablet-1:before { content: "\f106"; }
+.fl-008-mouse:before { content: "\f107"; }
+.fl-009-keyboard:before { content: "\f108"; }
+.fl-010-workplace:before { content: "\f109"; }
+.fl-011-pantone:before { content: "\f10a"; }
+.fl-012-compass:before { content: "\f10b"; }
+.fl-013-dropper:before { content: "\f10c"; }
+.fl-014-ruler:before { content: "\f10d"; }
+.fl-015-pencil:before { content: "\f10e"; }
+.fl-016-portfolio:before { content: "\f10f"; }
+.fl-017-browser-3:before { content: "\f110"; }
+.fl-018-loupe:before { content: "\f111"; }
+.fl-019-diamond:before { content: "\f112"; }
+.fl-020-rgb:before { content: "\f113"; }
+.fl-021-shutter:before { content: "\f114"; }
+.fl-022-background-1:before { content: "\f115"; }
+.fl-023-crop:before { content: "\f116"; }
+.fl-024-text-height:before { content: "\f117"; }
+.fl-025-text:before { content: "\f118"; }
+.fl-026-text-box:before { content: "\f119"; }
+.fl-027-drop-1:before { content: "\f11a"; }
+.fl-028-browser-2:before { content: "\f11b"; }
+.fl-029-drop:before { content: "\f11c"; }
+.fl-030-allocation-1:before { content: "\f11d"; }
+.fl-031-allocation:before { content: "\f11e"; }
+.fl-032-vector:before { content: "\f11f"; }
+.fl-033-tap:before { content: "\f120"; }
+.fl-034-sliders:before { content: "\f121"; }
+.fl-035-password:before { content: "\f122"; }
+.fl-036-image:before { content: "\f123"; }
+.fl-037-line-chart:before { content: "\f124"; }
+.fl-038-text-editor:before { content: "\f125"; }
+.fl-039-laptop:before { content: "\f126"; }
+.fl-040-prototype:before { content: "\f127"; }
+.fl-041-app:before { content: "\f128"; }
+.fl-042-tablet:before { content: "\f129"; }
+.fl-043-smartphone:before { content: "\f12a"; }
+.fl-044-landing:before { content: "\f12b"; }
+.fl-045-background:before { content: "\f12c"; }
+.fl-046-video-player:before { content: "\f12d"; }
+.fl-047-browser-1:before { content: "\f12e"; }
+.fl-048-browser:before { content: "\f12f"; }
+.fl-049-adaptive:before { content: "\f130"; }
+.fl-050-monitor:before { content: "\f131"; }
+    
+    $font-fl-001-stretch: "\f100";
+    $font-fl-002-profile: "\f101";
+    $font-fl-003-folder: "\f102";
+    $font-fl-004-sitemap: "\f103";
+    $font-fl-005-tea-cup: "\f104";
+    $font-fl-006-notebook: "\f105";
+    $font-fl-007-tablet-1: "\f106";
+    $font-fl-008-mouse: "\f107";
+    $font-fl-009-keyboard: "\f108";
+    $font-fl-010-workplace: "\f109";
+    $font-fl-011-pantone: "\f10a";
+    $font-fl-012-compass: "\f10b";
+    $font-fl-013-dropper: "\f10c";
+    $font-fl-014-ruler: "\f10d";
+    $font-fl-015-pencil: "\f10e";
+    $font-fl-016-portfolio: "\f10f";
+    $font-fl-017-browser-3: "\f110";
+    $font-fl-018-loupe: "\f111";
+    $font-fl-019-diamond: "\f112";
+    $font-fl-020-rgb: "\f113";
+    $font-fl-021-shutter: "\f114";
+    $font-fl-022-background-1: "\f115";
+    $font-fl-023-crop: "\f116";
+    $font-fl-024-text-height: "\f117";
+    $font-fl-025-text: "\f118";
+    $font-fl-026-text-box: "\f119";
+    $font-fl-027-drop-1: "\f11a";
+    $font-fl-028-browser-2: "\f11b";
+    $font-fl-029-drop: "\f11c";
+    $font-fl-030-allocation-1: "\f11d";
+    $font-fl-031-allocation: "\f11e";
+    $font-fl-032-vector: "\f11f";
+    $font-fl-033-tap: "\f120";
+    $font-fl-034-sliders: "\f121";
+    $font-fl-035-password: "\f122";
+    $font-fl-036-image: "\f123";
+    $font-fl-037-line-chart: "\f124";
+    $font-fl-038-text-editor: "\f125";
+    $font-fl-039-laptop: "\f126";
+    $font-fl-040-prototype: "\f127";
+    $font-fl-041-app: "\f128";
+    $font-fl-042-tablet: "\f129";
+    $font-fl-043-smartphone: "\f12a";
+    $font-fl-044-landing: "\f12b";
+    $font-fl-045-background: "\f12c";
+    $font-fl-046-video-player: "\f12d";
+    $font-fl-047-browser-1: "\f12e";
+    $font-fl-048-browser: "\f12f";
+    $font-fl-049-adaptive: "\f130";
+    $font-fl-050-monitor: "\f131";
