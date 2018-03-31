@@ -308,6 +308,7 @@ jQuery(document).on('ready', function ($) {
     ----------------------------*/
     new WOW().init();
 
+    Placeholdem( document.querySelectorAll( '[placeholder]' ) );
 
 }(jQuery));
 
