@@ -1,41 +1,93 @@
-.display-table{
-	display: table;
-}
-.display-table-cell{
-	display: table-cell;
-}
-.vertical-align-middle{
-	vertical-align: middle;
+/*--------------------
+    1. BASE CSS
+----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
 }
 
-
-p:last-of-type{
-	margin-bottom: 0;
-}
-.last-p-mb0 p:last-of-type{
-	margin-bottom: 0;
-}
-.first-h4-mb0 h4:first-of-type{
-	margin-bottom: 0;
+.alignright {
+    float: right;
+    margin-left: 15px;
 }
 
-
-.font-300{
-	font-weight: 300;
-}
-.font-400{
-	font-weight: 400;
-}
-.font-500{
-	font-weight: 500;
-}
-.font-600{
-	font-weight: 600;
-}
-.font-700{
-	font-weight: 700;
-}
-.font-800{
-	font-weight: 800;
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
 }
 
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a:focus,
+a:hover {
+    outline: 0 solid;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #292929;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: inherit;
+    margin: 0 0 15px;
+    line-height: 1.4em;
+}
+
+/*h1 { font-size: 2em; margin: .67em 0 }
+h2 { font-size: 1.5em; margin: .75em 0 }
+h3 { font-size: 1.17em; margin: .83em 0 }
+h5 { font-size: .83em; margin: 1.5em 0 }
+h6 { font-size: .75em; margin: 1.67em 0 }*/
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}

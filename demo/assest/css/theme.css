@@ -31,8 +31,8 @@ Version: 1.0
     21. SINGLE PAGE CSS
 ----------------------------------------------------------------------------------------*/
 
-@import url("core/default.css");
 @import url("core/text-typography.css");
+@import url("core/default.css");
 @import url("core/margin.css");
 @import url("core/padding.css");
 @import url("core/background.css");

@@ -1,3 +1,44 @@
+/*--------------------
+    BACKGROUND
+---------------------*/
+
+.green-bg {
+    background: #f6fafb;
+}
+
 .white-green{
 	background: #eaf6fa;
 }
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+/*-------------------*/
+
+.gray-bg {
+    background: #f5f4f4;
+}
+
+.sky-gray-bg {
+    background: #e5eff6;
+}
+
+.blue-bg {
+    background: #1193d4;
+}
+
+.dark-blue-bg {
+    background: #1291CA;
+}
+
+.dark-bg {
+    background: rgba(0, 0, 0, .85);
+    color: #ffffff;
+}
+
+.deep-dark-bg {
+    background: rgba(0, 0, 0, .9);
+    color: #ffffff;
+}
+

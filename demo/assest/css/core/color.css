@@ -1,0 +1,15 @@
+/*-----------------------
+    COLOR
+------------------------*/
+
+.white,
+.white h1,
+.white h2,
+.white h3,
+.white h4,
+.white h5,
+.white h6,
+.white a,
+.white small {
+    color: #ffffff;
+}
