@@ -2,8 +2,56 @@
     WIDTH
 ---------------------*/
 
-.width100,
-.width100 img {
+.width50 {
+    width: 50px;
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width70 {
+    width: 70px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.width90 {
+    width: 90px;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.width110 {
+    width: 110px;
+}
+
+.width120 {
+    width: 120px;
+}
+
+.width50p {
+    width: 50%;
+}
+
+.width70p {
+    width: 70%;
+}
+
+.width80p {
+    width: 80%;
+}
+
+.width90p {
+    width: 90%;
+}
+
+.width100p,
+.width100p img {
     width: 100%;
 }
 
@@ -33,44 +81,53 @@
     DISPLAY
 ------------------------*/
 
-.display-table{
-	display: table;
+.display-table {
+    display: table;
 }
-.display-table-cell{
-	display: table-cell;
+
+.display-table-cell {
+    display: table-cell;
 }
-.vertical-align-middle{
-	vertical-align: middle;
+
+.vertical-align-middle {
+    vertical-align: middle;
 }
 
 
-p:last-of-type{
-	margin-bottom: 0;
-}
-.last-p-mb0 p:last-of-type{
-	margin-bottom: 0;
-}
-.first-h4-mb0 h4:first-of-type{
-	margin-bottom: 0;
+p:last-of-type {
+    margin-bottom: 0;
 }
 
-.font-300{
-	font-weight: 300;
+.last-p-mb0 p:last-of-type {
+    margin-bottom: 0;
 }
-.font-400{
-	font-weight: 400;
+
+.first-h4-mb0 h4:first-of-type {
+    margin-bottom: 0;
 }
-.font-500{
-	font-weight: 500;
+
+.font300 {
+    font-weight: 300;
 }
-.font-600{
-	font-weight: 600;
+
+.font400 {
+    font-weight: 400;
 }
-.font-700{
-	font-weight: 700;
+
+.font500 {
+    font-weight: 500;
 }
-.font-800{
-	font-weight: 800;
+
+.font600 {
+    font-weight: 600;
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+.font800 {
+    font-weight: 800;
 }
 
 /*--------------------
@@ -142,6 +199,10 @@ p:last-of-type{
     align-items: center;
 }
 
+.display-block {
+    display: block;
+}
+
 .social-bookmark li {
     display: inline;
 }
@@ -163,4 +224,25 @@ p:last-of-type{
 
 .inline-block {
     display: inline-block;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sm-width100p {
+        width: 100%;
+    }
+    .flex-v-center {
+        display: inherit;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .xs-width100p {
+        width: 100%;
+    }
+    .flex-v-center {
+        -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+        align-items: inherit;
+        display: inherit;
+    }
 }

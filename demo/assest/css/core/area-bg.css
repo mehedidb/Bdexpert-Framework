@@ -16,6 +16,20 @@
     width: 100%;
 }
 
-.area-bg::before {
-    background: #1193d4 none repeat scroll 0 0;
+/*--------------------------
+    2. TOP AREA
+---------------------------*/
+
+.top-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.welcome-text-area {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 100%;
 }

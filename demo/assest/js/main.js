@@ -1,12 +1,6 @@
 jQuery(document).on('ready', function ($) {
     "use strict";
 
-
-    $('body').flowtype({
-        minFont: 14,
-        maxFont: 14
-    });
-
     /*--------------------------
         STICKY MAINMENU
     ---------------------------*/
@@ -35,6 +29,7 @@ jQuery(document).on('ready', function ($) {
         theme: 'dark'
     });
 
+
     /*----------------------------
         SCROLL TO TOP
     ------------------------------*/
@@ -54,7 +49,6 @@ jQuery(document).on('ready', function ($) {
         }
     });
 
-
     /*--------------------------
        PARALLAX BACKGROUND
     ----------------------------*/
@@ -64,7 +58,6 @@ jQuery(document).on('ready', function ($) {
         horizontalScrolling: false
     });
 
-
     /*------------------------------
         VIDEO POPUP
     --------------------------------*/
@@ -72,7 +65,6 @@ jQuery(document).on('ready', function ($) {
     $videoModal.modalVideo({
         channel: 'youtube'
     });
-
 
     /*---------------------------
         MICHIMP INTEGRATION
@@ -85,112 +77,6 @@ jQuery(document).on('ready', function ($) {
             }
         }
     });
-
-
-    /*---------------------------
-        TESTMONIAL SLIDER
-    -----------------------------*/
-    var $testmonialCarousel = $('.testmonial-member-list');
-    $testmonialCarousel.owlCarousel({
-        merge: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: false,
-        center: true,
-        dots: true,
-        navText: ['<i class="fa fa-long-arrow-left"></i> Prev', 'Next <i class="fa fa-long-arrow-right"></i>'],
-        autoplay: true,
-        autoplayTimeout: 3000,
-        margin: 20,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            },
-            1200: {
-                items: 1
-            }
-        }
-    });
-
-
-    /*---------------------------
-        HOME THREE TESTMONIAL SLIDER
-    -----------------------------*/
-    var $testmonialCarousel = $('.testmonial-slider-two');
-    $testmonialCarousel.owlCarousel({
-        merge: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: false,
-        dots: false,
-        rtl: false,
-        center: false,
-        navText: ['<i class="fa fa-long-arrow-left"></i> Prev', 'Next <i class="fa fa-long-arrow-right"></i>'],
-        autoplay: true,
-        autoplayTimeout: 3000,
-        margin: 30,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            },
-            1200: {
-                items: 3
-            },
-            1900: {
-                items: 3
-            }
-        }
-    });
-
-
-    /*---------------------------
-        VIDEO PROMO SLIDER
-    -----------------------------*/
-    var $promoCarousel = $('.video-promo-slider');
-    $promoCarousel.owlCarousel({
-        merge: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: false,
-        dots: true,
-        center: true,
-        navText: ['<i class="fa fa-long-arrow-left"></i> Prev', 'Next <i class="fa fa-long-arrow-right"></i>'],
-        autoplay: true,
-        autoplayTimeout: 3000,
-        margin: 20,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut',
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            },
-            1200: {
-                items: 1
-            }
-        }
-    });
-
 
     /*---------------------------
         SCREENSHOT SLIDER
@@ -221,94 +107,84 @@ jQuery(document).on('ready', function ($) {
                 items: 5
             },
             1900: {
-                items: 6
+                items: 5
             }
         }
     });
 
-
     /*---------------------------
-        HOME TWO SCREENSHOT SLIDER
+        TESTMONIAL SLIDER
     -----------------------------*/
-    var $screenshotCarousel = $('.screenshot-slider-2');
-    $screenshotCarousel.owlCarousel({
+    var $testmonialCarousel = $('.testmonial-slider');
+    $testmonialCarousel.owlCarousel({
         merge: true,
         smartSpeed: 1000,
         loop: true,
-        nav: false,
-        rtl: false,
+        nav: true,
         center: false,
-        navText: ['<i class="fa fa-long-arrow-left"></i> Prev', 'Next <i class="fa fa-long-arrow-right"></i>'],
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
         autoplay: true,
         autoplayTimeout: 3000,
-        margin: 30,
+        margin: 20,
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1
             },
             600: {
-                items: 3
+                items: 2
             },
             1000: {
-                items: 3
+                items: 2
             },
             1200: {
-                items: 3
-            },
-            1900: {
-                items: 4
+                items: 2
             }
         }
     });
 
-
-    /*---------------------------
-        TEAM SLIDER ACTIVE
-    ---------------------------*/
-    $('.team-slider').slick({
-        dots: true,
-        arrows: false,
-        autoplay: true,
-        speed: 1000,
-        nav: false,
-        vertical: true,
-        slidesToShow: 2,
-        responsive: [
-            {
-                breakpoint: 1280,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
+    /*-------------------------------
+        PRICE TABLE ACTIVE
+    ---------------------------------*/
+    $('.single-price,.download-button a,.download-content a').on('hover', function (e) {
+        $('.single-price,.download-button a,.download-content a').removeClass('active');
+        var $this = $(this);
+        if (!$this.hasClass('active')) {
+            $this.addClass('active');
+        }
+        e.preventDefault();
     });
 
+    /*--------------------------
+        FACT COUNTERING
+    ---------------------------*/
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    /*--------------------------
+        ACCORDION ACTIVE
+    ---------------------------*/
+    $('#accordion-main .panel.panel-default').on('click', function (e) {
+        $('#accordion-main .panel.panel-default').removeClass('active');
+        var $this = $(this);
+        if (!$this.hasClass('active')) {
+            $this.addClass('active');
+        }
+        e.preventDefault();
+    });
 
     /*--------------------------
         ACTIVE WOW JS
     ----------------------------*/
     new WOW().init();
 
-    Placeholdem( document.querySelectorAll( '[placeholder]' ) );
+    /*---------------------------
+        PLACEHOLDER ANIMATION
+    ----------------------------*/
+    Placeholdem(document.querySelectorAll('[placeholder]'));
 
 }(jQuery));
 

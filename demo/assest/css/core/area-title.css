@@ -1,59 +1,59 @@
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 /*-----------------------
     SECTION TITLE
 ------------------------*/
 
-.area-title,
-.section-title {
+.area-title {
     margin-bottom: 80px;
     position: relative;
 }
 
 .area-title h2 {
-    color: #1a264a;
+    font-size: 48px;
     line-height: 1;
-    margin-bottom: 45px;
-    padding-bottom: 35px;
-    position: relative;
-    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
 .area-title h2 span {
-    color: #1193d4;
+    color: #8256ff;
 }
 
-.icon-and-border {
-    background: #fff none repeat scroll 0 0;
-    border-radius: 50%;
-    color: #1193d4;
-    display: inline-block;
-    height: 40px;
-    left: 0;
-    margin: auto;
-    padding-top: 8px;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 45px;
-    width: 40px;
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (max-width: 767px) {
+    .area-title {
+        margin-bottom: 50px;
+    }
+    .area-title h2 {
+        font-size: 28px;
+    }
+    .download-area .area-title h2 {
+        font-size: 22px;
+    }
+    .accordion-toggle .fa-angle-down {
+        display: none;
+    }
 }
 
-.area-title h2::after {
-    border-bottom: 2px dashed #1a264a;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 50%;
-}
-
-.sky-gray-bg .area-title .icon-and-border {
-    background: #e5eff6;
-}
-
-.gray-bg .area-title .icon-and-border {
-    background: #f5f4f4 none repeat scroll 0 0;
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .area-title h2 {
+        font-size: 32px;
+    }
+    .download-area .area-title h2 {
+        font-size: 32px;
+    }
 }

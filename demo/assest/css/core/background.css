@@ -6,30 +6,20 @@
     background: #f6fafb;
 }
 
-.white-green{
-	background: #eaf6fa;
+.white-green {
+    background: #eaf6fa;
+}
+
+.gray-bg {
+    background: #f5f4f4;
 }
 
 .bg-light-gray {
     background-color: #f7f7f7;
 }
 
-/*-------------------*/
-
-.gray-bg {
-    background: #f5f4f4;
-}
-
 .sky-gray-bg {
-    background: #e5eff6;
-}
-
-.blue-bg {
-    background: #1193d4;
-}
-
-.dark-blue-bg {
-    background: #1291CA;
+    background: #f7f9fc;
 }
 
 .dark-bg {
@@ -41,4 +31,3 @@
     background: rgba(0, 0, 0, .9);
     color: #ffffff;
 }
-
