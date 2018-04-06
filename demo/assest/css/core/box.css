@@ -350,6 +350,9 @@
     transform: scaleY(0);
 }
 
+/*--------------------------
+    BOX HOVER
+----------------------------*/
 
 .box-hover-1:hover,
 .box-hover-2:hover,
@@ -584,7 +587,13 @@ BOX HOVER 8
 ----------------------- */
 
 .box-hover-18:hover,
-.box-hover-19:hover {
+.box-hover-19:hover,
+.box-hover-20:hover,
+.box-hover-21:hover,
+.box-hover-18.active,
+.box-hover-19.active,
+.box-hover-20.active,
+.box-hover-21.active {
     -webkit-box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform: translateY(-5px);
@@ -592,43 +601,80 @@ BOX HOVER 8
 }
 
 .box-hover-18::before,
-.box-hover-19::before {
-    border-top: 15px solid #8256ff;
-    border-left: 15px solid #8256ff;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid transparent;
+.box-hover-19::before,
+.box-hover-20::before,
+.box-hover-20::after,
+.box-hover-21::before,
+.box-hover-21::after {
     content: "";
     height: 0;
-    left: 0;
     position: absolute;
-    top: 0;
     width: 0;
     opacity: 0;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
-.box-hover-19::before {
+.box-hover-18::before,
+.box-hover-20::before {
+    border-top: 15px solid #8256ff;
+    border-left: 15px solid #8256ff;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+    left: 0;
+    top: 0;
+}
+
+
+
+.box-hover-19::before,
+.box-hover-20::after {
     border-top: 15px solid transparent;
     border-left: 15px solid transparent;
     border-bottom: 15px solid #8256ff;
     border-right: 15px solid #8256ff;
     bottom: 0;
-    left: auto;
     right: 0;
-    top: auto;
+}
+
+.box-hover-21::before {
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-top: 15px solid #8256ff;
+    border-right: 15px solid #8256ff;
+    right: 0;
+    top: 0;
+}
+
+.box-hover-21::after {
+    border-left: 15px solid #8256ff;
+    border-bottom: 15px solid #8256ff;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 0;
+    left: 0;
 }
 
 .box-hover-18:hover::before,
-.box-hover-19:hover::before {
+.box-hover-19:hover::before,
+.box-hover-20:hover::before,
+.box-hover-20:hover::after,
+.box-hover-21:hover::before,
+.box-hover-21:hover::after,
+.box-hover-18.active::before,
+.box-hover-19.active::before,
+.box-hover-20.active::before,
+.box-hover-20.active::after,
+.box-hover-21.active::before,
+.box-hover-21.active::after {
     opacity: 1;
 }
 
 /* ---------------------------
-    BOX HOVER 20
+    BOX HOVER 22
 ---------------------------- */
 
-.box-hover-20::before {
+.box-hover-21::before {
     background: #8256ff none repeat scroll 0 0;
     content: "";
     height: 100%;
@@ -642,17 +688,17 @@ BOX HOVER 8
     z-index: -1;
 }
 
-.box-hover-20:hover::before {
+.box-hover-21:hover::before {
     opacity: 1;
 }
 
-.box-hover-20:hover,
-.box-hover-20:hover a,
-.box-hover-20:hover h1,
-.box-hover-20:hover h2,
-.box-hover-20:hover h3,
-.box-hover-20:hover h4,
-.box-hover-20:hover h5,
-.box-hover-20:hover h6 {
+.box-hover-21:hover,
+.box-hover-21:hover a,
+.box-hover-21:hover h1,
+.box-hover-21:hover h2,
+.box-hover-21:hover h3,
+.box-hover-21:hover h4,
+.box-hover-21:hover h5,
+.box-hover-21:hover h6 {
     color: #ffffff;
 }
