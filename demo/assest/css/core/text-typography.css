@@ -88,6 +88,32 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
 }
 
+/*----------------------
+    ALIGN
+-----------------------*/
+
+.left,
+.right,
+.center {
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+/*------------------------
+    TEXT
+--------------------------*/
+
 .uppercase {
     text-transform: uppercase;
 }

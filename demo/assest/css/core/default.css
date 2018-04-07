@@ -55,28 +55,6 @@
     width: 100%;
 }
 
-/*----------------------
-    ALIGN
------------------------*/
-
-.left,
-.right,
-.center {
-    position: relative;
-}
-
-.left {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-
-.center {
-    text-align: center;
-}
-
 /*-----------------------
     DISPLAY
 ------------------------*/
