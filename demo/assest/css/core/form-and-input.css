@@ -43,6 +43,7 @@ textarea {
     border-radius: 3px;
     padding: 3px;*/
     outline: 0;
+    width: 100%;
 }
 
 input[type="text"]:focus,
