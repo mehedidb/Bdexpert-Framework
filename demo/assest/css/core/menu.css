@@ -58,7 +58,6 @@ ul#nav {
 
 ul#nav li a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    color: #404873;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -67,6 +66,26 @@ ul#nav li a {
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+
+/*---------------------------
+    MENU COLOR VARIENT
+----------------------------*/
+
+/*--------------------------
+    MENU DEFAULT
+--------------------------*/
+
+.mainmenu-area {
+    background: transparent;
+}
+
+.is-sticky .mainmenu-area {
+    background: #ffffff;
+}
+
+ul#nav li a {
+    color: #404873;
 }
 
 ul#nav li li a {
@@ -78,12 +97,89 @@ ul#nav li.active > a {
     color: #8256ff;
 }
 
+/*-------------------------
+    MENU DARK
+--------------------------*/
+
+.menu-dark ul#nav li a {
+    color: #333333;
+}
+
+.menu-dark ul#nav li a:hover,
+.menu-dark ul#nav li.active a {
+    color: #8256ff;
+}
+
+.menu-dark ul#nav li ul li a,
+.menu-dark ul#nav li.active ul li a {
+    color: #ffffff;
+}
+
+.menu-dark ul#nav li ul li a:hover {
+    color: #8256ff;
+}
+
+.is-sticky .menu-dark ul#nav li a {
+    color: #4d557d;
+}
+
+.is-sticky .menu-dark ul#nav li.active a,
+.is-sticky .menu-dark ul#nav li a:hover {
+    color: #8256ff;
+}
+
+.is-sticky .menu-dark ul#nav li.active ul li a,
+.is-sticky .menu-dark ul#nav li ul li a {
+    color: #ffffff;
+}
+
+.is-sticky .menu-dark ul#nav li.active ul li a:hover,
+.is-sticky .menu-dark ul#nav li ul li a:hover {
+    color: #8256ff;
+}
+
+/*--------------------------
+    MENU PURPLE
+---------------------------*/
+
+.menu-parpel ul#nav li a,
+.menu-parpel ul#nav li ul a,
+.menu-parpel ul#nav li ul li a,
+.menu-parpel ul#nav li.active ul li a,
+.is-sticky .menu-parpel ul#nav li ul li a,
+.is-sticky .menu-parpel ul#nav li.active ul li a {
+    color: #ffffff;
+}
+
+.is-sticky .menu-parpel ul#nav li a {
+    color: #4d557d;
+}
+
+/*
+.is-sticky .menu-parpel ul#nav li ul li a,
+.is-sticky .menu-parpel ul#nav li.active ul li a {
+    color: #ffffff;
+}
+*/
+
+.menu-parpel ul#nav li a:hover,
+.menu-parpel ul#nav li.active a,
+.menu-parpel ul#nav li ul a:hover,
+.menu-parpel ul#nav li.active ul a:hover,
+.is-sticky .menu-parpel ul#nav li ul a:hover,
+.is-sticky .menu-parpel ul#nav li.active ul a:hover {
+    color: #8256ff;
+}
+
+/*-----------------------------
+END MENU VARIENT
+------------------------------*/
+
 .is-sticky ul#nav li a {
     padding: 20px 15px;
 }
 
 .is-sticky .mainmenu-area {
-    background: #ffffff;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
     z-index: 99999;
